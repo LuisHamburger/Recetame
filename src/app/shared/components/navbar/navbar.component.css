@@ -1,8 +1,8 @@
-.color-black {
+.color-gray {
     color: #4e4e4e;
 }
 
-.active {
+.color-black {
     color: #000000;
     font-weight: bold;
 }
