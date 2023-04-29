@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { FilterOptionsComponent } from '../../components/filter-options/filter-options.component';
 
 @Component({
   selector: 'app-search',

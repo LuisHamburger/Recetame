@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { LoginComponent } from './modules/auth/pages/login/login.component';
 import { RegisterComponent } from './modules/auth/pages/register/register.component';
-import { SearchComponent } from './modules/home/pages/search/search.component';
+import { SearchComponent } from './modules/search/pages/search/search.component';
 
 const routes: Routes = [
   {
