@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #FFF8D6;
+}
+
+.title-app {
+    color: #617A55;
+    font-size: 70px !important;
+}
+
+* {
+    border-color: #A4D0A4 !important;
+    font-family: 'Amatic SC', cursive !important;
+    font-weight: bold !important;
+}
