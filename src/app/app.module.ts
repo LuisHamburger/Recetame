@@ -7,6 +7,7 @@ import { AuthModule } from './modules/auth/auth.module';
 import { HomeModule } from './modules/home/home.module';
 import { SharedModule } from './shared/shared.module';
 import { SearchModule } from './modules/search/search.module';
+import { ProfileModule } from './modules/profile/profile.module';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { SearchModule } from './modules/search/search.module';
     SharedModule,
     AuthModule,
     HomeModule,
-    SearchModule
+    SearchModule,
+    ProfileModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

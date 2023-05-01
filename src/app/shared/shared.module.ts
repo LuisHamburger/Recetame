@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { RecipeResultsComponent } from './components/recipe-results/recipe-results.component';
-import { AppRoutingModule } from '../app-routing.module';
 import { IndividualRecipeComponent } from './components/individual-recipe/individual-recipe.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -15,7 +15,7 @@ import { IndividualRecipeComponent } from './components/individual-recipe/indivi
   ],
   imports: [
     CommonModule,
-    AppRoutingModule,
+    RouterModule
   ],
   exports: [
     NavbarComponent,
