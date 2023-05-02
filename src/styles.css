@@ -1,14 +1,14 @@
 body {
-    background-color: #FFF8D6;
+    background-color: #EEEEEE;
 }
 
 .title-app {
-    color: #617A55;
+    color: #658864;
     font-size: 70px !important;
 }
 
 * {
-    border-color: #A4D0A4 !important;
+    border-color: #B7B78A !important;
     font-family: 'Amatic SC', cursive !important;
     font-weight: bold !important;
 }
