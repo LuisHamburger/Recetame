@@ -30,6 +30,12 @@ body {
     cursor: pointer;
 }
 
+hr {
+    background-color: #658864;
+    height: 2px;
+    border: none;
+}
+
 @media screen and (max-width: 576px) {
     .card {
         margin-top: 2rem;
