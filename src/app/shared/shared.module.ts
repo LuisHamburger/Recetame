@@ -4,6 +4,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { RecipeResultsComponent } from './components/recipe-results/recipe-results.component';
 import { IndividualRecipeComponent } from './components/individual-recipe/individual-recipe.component';
 import { RouterModule } from '@angular/router';
+import { RecipePostComponent } from './components/recipe-post/recipe-post.component';
 
 
 
@@ -11,7 +12,8 @@ import { RouterModule } from '@angular/router';
   declarations: [
     NavbarComponent,
     RecipeResultsComponent,
-    IndividualRecipeComponent
+    IndividualRecipeComponent,
+    RecipePostComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { RouterModule } from '@angular/router';
   exports: [
     NavbarComponent,
     RecipeResultsComponent,
-    IndividualRecipeComponent
+    IndividualRecipeComponent,
+    RecipePostComponent
   ]
 })
 export class SharedModule { }

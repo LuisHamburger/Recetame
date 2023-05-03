@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { BasicDataComponent } from './pages/basic-data/basic-data.component';
 import { FavoriteRecipeComponent } from './pages/favorite-recipe/favorite-recipe.component';
+import { PostsComponent } from './pages/posts/posts.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: "favorites",
     component: FavoriteRecipeComponent,
+  },
+  {
+    path: "posts",
+    component: PostsComponent,
   },
   {
     path: "**",

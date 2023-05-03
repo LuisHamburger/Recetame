@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AuthModule } from './modules/auth/auth.module';
-import { HomeModule } from './modules/home/home.module';
+import { RedModule } from './modules/red/red.module';
 import { SharedModule } from './shared/shared.module';
 import { SearchModule } from './modules/search/search.module';
 import { ProfileModule } from './modules/profile/profile.module';
@@ -18,7 +18,7 @@ import { ProfileModule } from './modules/profile/profile.module';
     AppRoutingModule,
     SharedModule,
     AuthModule,
-    HomeModule,
+    RedModule,
     SearchModule,
     ProfileModule,
   ],

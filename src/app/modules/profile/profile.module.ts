@@ -5,6 +5,7 @@ import { ProfileRoutingModule } from './profile-routing.module';
 import { SharedModule } from '../../shared/shared.module';
 import { BasicDataComponent } from './pages/basic-data/basic-data.component';
 import { FavoriteRecipeComponent } from './pages/favorite-recipe/favorite-recipe.component';
+import { PostsComponent } from './pages/posts/posts.component';
 
 
 
@@ -12,7 +13,8 @@ import { FavoriteRecipeComponent } from './pages/favorite-recipe/favorite-recipe
   declarations: [
     ProfileComponent,
     BasicDataComponent,
-    FavoriteRecipeComponent
+    FavoriteRecipeComponent,
+    PostsComponent
   ],
   imports: [
     CommonModule,
