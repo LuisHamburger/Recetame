@@ -9,32 +9,10 @@
         <div id="collapFilter" class="accordion-collapse collapse" aria-labelledby="headingFilter"
             data-bs-parent="#accordionFilter">
             <div class="accordion-body">
-                <div class="form-group">
-                    <label for="tipo">Tipo</label>
+                <div class="form-group" *ngFor="let filter of getFilters()">
+                    <label for="tipo">{{filter.title}}</label>
                     <select class="form-control bg-transparent" id="tipo">
-                        <option>Todos</option>
-                        <option>Postres</option>
-                        <option>Platos principales</option>
-                    </select>
-                </div>
-                <div class="form-group my-4">
-                    <label for="dificultad">Dificultad</label>
-                    <select class="form-control bg-transparent" id="dificultad">
-                        <option>Todos</option>
-                        <option>Fácil</option>
-                        <option>Intermedio</option>
-                        <option>Difícil</option>
-                    </select>
-                </div>
-                <div class="form-group">
-                    <label for="calificacion">Calificación</label>
-                    <select class="form-control bg-transparent" id="calificacion">
-                        <option>Todos</option>
-                        <option>1 estrella</option>
-                        <option>2 estrellas</option>
-                        <option>3 estrellas</option>
-                        <option>4 estrellas</option>
-                        <option>5 estrellas</option>
+                        <option *ngFor="let option of filter.options">{{option}}</option>
                     </select>
                 </div>
             </div>

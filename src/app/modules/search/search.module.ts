@@ -5,6 +5,7 @@ import { FilterOptionsComponent } from './components/filter-options/filter-optio
 import { SharedModule } from '../../shared/shared.module';
 import { RecipeSelectedComponent } from './pages/recipe-selected/recipe-selected.component';
 import { SearchRoutingModule } from './search-routing.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { SearchRoutingModule } from './search-routing.module';
   ],
   imports: [
     CommonModule,
+    FormsModule,
     SearchRoutingModule,
     SharedModule
   ]
