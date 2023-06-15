@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { AuthModule } from './modules/auth/auth.module';
 import { RedModule } from './modules/red/red.module';
 import { SharedModule } from './shared/shared.module';
-import { SearchModule } from './modules/search/search.module';
 import { ProfileModule } from './modules/profile/profile.module';
 
 @NgModule({
@@ -19,7 +18,6 @@ import { ProfileModule } from './modules/profile/profile.module';
     SharedModule,
     AuthModule,
     RedModule,
-    SearchModule,
     ProfileModule,
   ],
   providers: [],

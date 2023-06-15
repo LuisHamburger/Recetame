@@ -1,21 +1,21 @@
 body {
-    background-color: #EEEEEE;
+    background-image: url("./assets/FondoRocoso.webp");
+    opacity: 10;
 }
 
 .title-app {
-    color: #658864;
+    color: white;
     font-size: 70px !important;
 }
 
 * {
-    border-color: #B7B78A !important;
+    border-color: #bfbfbf !important;
     font-family: 'Amatic SC', cursive !important;
     font-weight: bold !important;
 }
 
 .card {
     border-radius: 10px;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 
 .card-body {
@@ -31,9 +31,14 @@ body {
 }
 
 hr {
-    background-color: #658864;
+    background-color: #bfbfbf;
     height: 2px;
     border: none;
+}
+
+.bg-card {
+    background-color: transparent;
+    color: white;
 }
 
 @media screen and (max-width: 576px) {

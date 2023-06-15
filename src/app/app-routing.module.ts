@@ -12,10 +12,6 @@ const routes: Routes = [
     loadChildren: () => import("./modules/red/red.module").then((module) => module.RedModule)
   },
   {
-    path: "search",
-    loadChildren: () => import("./modules/search/search.module").then((module) => module.SearchModule)
-  },
-  {
     path: "profile",
     loadChildren: () => import("./modules/profile/profile.module").then((module) => module.ProfileModule)
   },
